@@ -1,3 +1,28 @@
 body{
-    background-color: salmon;
+    background-color: steelblue;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  #main-content{
+    max-width: 350px;
+    width: 100%;
+    background-color:whitesmoke;
+  }
+  
+  #id-content{
+    width: 100%;
+    max-width: 1200px;
+    background-color: whitesmoke;
+    margin: auto;
+    h1{
+   background-color: orange;
+   width: 100%;
+   }
+   
+    
+  
 }
